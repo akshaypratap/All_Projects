@@ -1,0 +1,238 @@
+@media all and (max-width: 1900px) and (min-width: 1600px) {
+    .container {
+        max-width: 1500px;
+    }
+    #hero .home_bg {
+        padding-top: 0px!important;
+    }
+    section#hero {
+        background-size: 60%;
+    }
+    section#pricing_main .image_area {
+        right: -390px;
+        top: -160px;
+    }
+}
+
+@media all and (max-width: 1500px) and (min-width: 1300px) {
+    section#pricing_main {
+        padding-bottom: 280px;
+    }
+}
+
+@media all and (max-width: 1050px) {
+    section#hero h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    section#hero {
+        padding-top: 110px;
+    }
+    section#grocery_main {
+        padding-top: 150px;
+    }
+    section#grocery_main h1 {
+        font-size: 30px;
+        line-height: 28px;
+        font-size: 18px;
+    }
+    .grocery_bg {
+        padding-bottom: 20px;
+    }
+    section#pricing_main h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    section#pricing_main {
+        padding-top: 140px;
+        padding-bottom: 125px;
+    }
+    .cost_graph {
+        padding-top: 20px;
+    }
+    .pricing_now::before {
+        font-size: 16px!important;
+        line-height: 40px;
+    }
+    .multiple_apps {
+        padding-bottom: 40px;
+    }
+    .contact {
+        padding-top: 200px;
+    }
+    .contactus-btn {
+        margin-left: 60px;
+    }
+    .navbar>ul>li {
+        padding: 8px 0 8px 60px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .contactus-btn {
+        margin: 0 15px 0 0;
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    section#hero {
+        background-size: 100%;
+        background-position: bottom right;
+    }
+    .features .mobile_device {
+        margin: 30px 0;
+    }
+    .section-title .text_spacing {
+        padding-top: 400px;
+    }
+    .multiple_apps {
+        position: relative;
+    }
+    .multiple_apps .tab-content .image-box {
+        position: absolute!important;
+        top: 350px;
+    }
+    .money_flow .pic-box {
+        min-height: 450px;
+        padding: 20px;
+        background-size: 70%;
+    }
+    #footer .footer-top .account {
+        padding-left: 30px;
+    }
+    #footer .footer-top .contact_detail {
+        padding-left: 30px!important;
+    }
+    #footer .footer-top .footer-contact {
+        text-align: center;
+    }
+    #footer .footer-top .footer-contact img {
+        width: auto;
+    }
+    #footer .footer-top .footer-contact p {
+        width: 60%;
+        margin: auto;
+    }
+    section#grocery_main {
+        padding-bottom: 35px;
+        background-size: 135%;
+    }
+}
+
+@media all and (max-width: 650px) {
+    /* index page Media query */
+    .section-title h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    #topbar {
+        height: auto;
+        position: relative;
+    }
+    #topbar .contact-info {
+        flex-wrap: wrap;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        justify-content: center;
+    }
+    #header {
+        top: 100px;
+    }
+    #topbar .contact-info .login_signup {
+        margin-left: 0;
+    }
+    #topbar .contact-info .login_signup {
+        font-size: 16px;
+        padding-left: 0;
+    }
+    #topbar .contact-info .phone {
+        margin-bottom: 10px;
+    }
+    #topbar .contact-info .email {
+        margin-bottom: 10px;
+    }
+    section#hero {
+        padding-top: 150px;
+    }
+    #services {
+        padding-bottom: 70px;
+    }
+    .money_flow {
+        position: relative;
+    }
+    .money_flow .image-box {
+        position: absolute!important;
+        top: 150px;
+        min-height: 300px;
+    }
+    .start_flow {
+        position: relative;
+    }
+    .start_flow .image-box {
+        position: absolute!important;
+        min-height: 300px;
+        top: 200px;
+    }
+    /* Grocery Page Media query */
+    section#grocery_main {
+        background-image: none;
+        background-color: #fef5f2;
+        padding-bottom: 40px;
+    }
+    .multiple_apps .image-box {
+        min-height: 230px;
+    }
+    .features .devices_image {
+        margin-top: 30px;
+    }
+    .multiple_apps .tab_scroll {
+        overflow: scroll;
+    }
+    .money_flow .pic-box {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 30px;
+    }
+    .tab-content .section-title .text_spacing {
+        padding-top: 270px;
+    }
+    .tab-content .img_spacing {
+        top: 430px!important;
+    }
+    .money_flow .pic-box {
+        min-height: 300px;
+        padding: 30px;
+        background-size: 100%;
+    }
+    /* Features page media query */
+    /* client feedback and footer media query */
+    .client_feedbacks .client_parent {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .client_feedbacks .client_parent p::after {
+        right: -10px;
+    }
+    .client_feedbacks .client_parent p::before {
+        left: -10px;
+        top: -60px;
+    }
+    .client_feedbacks .client_parent::before {
+        right: -191px;
+    }
+    .client_feedbacks .client_parent::after {
+        left: -200px;
+    }
+    #footer {
+        text-align: center;
+    }
+    #footer .footer-top .footer-links ul li {
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 414px) {
+    #hero .home_bg {
+        display: none;
+    }
+}
